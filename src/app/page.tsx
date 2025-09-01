@@ -1,3 +1,4 @@
+import Benefits from "./components/benefits";
 import Header from "./components/header";
 
 import Main from "./components/main";
@@ -7,6 +8,7 @@ const Home = () => {
     <div className="">
       <Header />
       <Main />
+      <Benefits />
     </div>
   );
 };
