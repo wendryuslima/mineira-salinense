@@ -19,11 +19,13 @@ const Header = () => {
   return (
     <div className="flex items-center justify-between border border-b p-4">
       <div className="">
-        <h1 className="text-2xl font-semibold text-[#FFD700]">
+        <h1 className="text-2xl font-semibold text-[#FFD700] uppercase">
           Mineira Salinense
         </h1>
 
-        <span className="rounde-xl text-sm text-white">Cachaça artesanal</span>
+        <span className="rounde-xl border-b border-zinc-400 text-sm text-white">
+          Cachaça artesanal
+        </span>
       </div>
 
       <Sheet open={isOpen} onOpenChange={setIsOpen}>

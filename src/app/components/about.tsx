@@ -1,0 +1,73 @@
+"use client";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Image from "next/image";
+import { useEffect } from "react";
+
+const About = () => {
+  useEffect(() => {
+    Aos.init();
+  });
+  return (
+    <div className="mt-24 px-4">
+      <h2
+        data-aos="fade-up"
+        className="mb-4 flex justify-center text-4xl font-bold"
+      >
+        Sobre Nós
+      </h2>
+      <div className="relative h-[450px] w-full">
+        <Image
+          src="/mineira-salinense-3.jpg"
+          alt="m-s-4"
+          fill
+          className="rounded-lg object-cover"
+        />
+        {/* Overlay escuro */}
+        <div className="bg-background/95 absolute inset-0 rounded-md"></div>
+
+        <div className="mt- 4 text-center">
+          <div className="mx-auto h-1 w-24 bg-yellow-300"></div>
+        </div>
+
+        <div className="space-y-6 p-6">
+          <div data-aos="fade-left" className="space-y-4">
+            <h3 className="text-2xl font-semibold">Mineira Salinense</h3>
+            <p className="text-lg leading-relaxed">
+              Com mais de{" "}
+              <span className="font-semibold text-yellow-300">
+                15 anos de experiência
+              </span>{" "}
+              no mercado, a Mineira Salinense se consolidou como uma das
+              principais referências no ABC Paulista, oferecendo soluções de
+              qualidade e excelência em todos os nossos serviços.
+            </p>
+            <p className="text-lg leading-relaxed">
+              Nossa trajetória é marcada pelo compromisso com a qualidade,
+              inovação e satisfação total dos nossos clientes, construindo
+              relacionamentos duradouros baseados na confiança e resultados
+              excepcionais.
+            </p>
+          </div>
+        </div>
+
+        <div className="mt-24 grid grid-cols-3 gap-4 pt-4">
+          <div className="bg-background rounded-lg border p-4 text-center">
+            <div className="mb-1 text-2xl font-bold text-yellow-300">15+</div>
+            <div className="text-sm text-white">Anos de Experiência</div>
+          </div>
+          <div className="bg-background rounded-lg border p-4 text-center">
+            <div className="mb-1 text-2xl font-bold text-yellow-300">ABCD</div>
+            <div className="text-sm text-white">Referência Regional</div>
+          </div>
+          <div className="bg-background justify-center rounded-lg border p-4 text-center">
+            <div className="mb-1 text-2xl font-bold text-yellow-300">500 +</div>
+            <div className="text-sm text-white">Clientes por todo ABCD</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default About;

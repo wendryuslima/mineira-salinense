@@ -1,3 +1,4 @@
+import About from "./components/about";
 import Benefits from "./components/benefits";
 import Header from "./components/header";
 
@@ -9,6 +10,7 @@ const Home = () => {
       <Header />
       <Main />
       <Benefits />
+      <About />
     </div>
   );
 };
