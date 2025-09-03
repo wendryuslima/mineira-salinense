@@ -5,6 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const Main = () => {
   useEffect(() => {
@@ -36,9 +37,11 @@ const Main = () => {
         />
 
         <div className="mt-4 flex items-center gap-4">
-          <Button variant="outline" className="text-white">
-            Saiba mais
-          </Button>
+          <Link href="#about" className="">
+            <Button variant="outline" className="text-white">
+              Saiba mais
+            </Button>
+          </Link>
           <Button className="text-black">Peça agora</Button>
         </div>
       </div>

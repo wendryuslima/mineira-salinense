@@ -12,7 +12,10 @@ const Benefits = () => {
     Aos.init();
   });
   return (
-    <div className="flex w-full flex-col items-center justify-center overflow-hidden">
+    <div
+      id="products"
+      className="flex w-full flex-col items-center justify-center overflow-hidden"
+    >
       <div data-aos="fade-up" className="flex p-4">
         <Martini size={35} />
         <BottleWine size={35} />

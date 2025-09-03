@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { DepoimentsComponent } from "../utils/depoiments";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -9,7 +9,10 @@ const Depoiments = () => {
     Aos.init();
   });
   return (
-    <div className="mt-24 flex flex-col items-center justify-center gap-6 p-4">
+    <div
+      id="depoiments"
+      className="mt-24 flex flex-col items-center justify-center gap-6 p-4"
+    >
       <div data-aos="fade-right" className="">
         <div className="flex items-center justify-center gap-4">
           <h2 className="">Depoimento de clientes</h2>

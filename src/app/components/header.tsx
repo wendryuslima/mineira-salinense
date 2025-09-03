@@ -13,8 +13,16 @@ import { useState } from "react";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const handleCloseMenuClick = () => {
+  const handleLinkClick = (
+    event: React.MouseEvent<HTMLAnchorElement>,
+    target: string,
+  ) => {
+    event.preventDefault();
     setIsOpen(false);
+
+    setTimeout(() => {
+      document.querySelector(target)?.scrollIntoView({ behavior: "smooth" });
+    }, 300);
   };
   return (
     <div className="flex items-center justify-between border border-b p-4">
@@ -37,19 +45,28 @@ const Header = () => {
             <SheetTitle>Menu</SheetTitle>
           </SheetHeader>
 
-          <div
-            onClick={handleCloseMenuClick}
-            className="flex flex-col space-y-4 p-4"
-          >
-            <Link className="hover:underline" href="#about">
+          <div className="flex flex-col space-y-4 p-4">
+            <a
+              className="hover:underline"
+              href="#about"
+              onClick={(e) => handleLinkClick(e, "#about")}
+            >
               Sobre nós
-            </Link>
-            <Link className="hover:underline" href="#about">
+            </a>
+            <a
+              className="hover:underline"
+              href="#products"
+              onClick={(e) => handleLinkClick(e, "#about")}
+            >
               Produtos
-            </Link>
-            <Link className="hover:underline" href="#about">
+            </a>
+            <a
+              className="hover:underline"
+              href="#depoiments"
+              onClick={(e) => handleLinkClick(e, "#depoiments")}
+            >
               Avaliações
-            </Link>
+            </a>
             <Link className="hover:underline" href="#about">
               Contatos
             </Link>

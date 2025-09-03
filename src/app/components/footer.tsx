@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="mt-12 flex flex-col items-center justify-center gap-4 border border-t px-4 text-white">
       <Link
         className="mt-4"
-        href="https://www.instagram.com/detetiveparticularlima?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+        href="https://www.instagram.com/mineirasalinense?igsh=ZDJlMDk0dXlhMW16"
       >
         <InstagramIcon />
       </Link>

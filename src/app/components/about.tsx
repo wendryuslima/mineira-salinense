@@ -9,7 +9,7 @@ const About = () => {
     Aos.init();
   });
   return (
-    <div className="mt-24 overflow-hidden px-4">
+    <div id="about" className="mt-24 overflow-hidden px-4">
       <h2
         data-aos="fade-up"
         className="mb-4 flex justify-center text-4xl font-bold"
