@@ -1,5 +1,7 @@
 import About from "./components/about";
 import Benefits from "./components/benefits";
+import Depoiments from "./components/depoiments";
+import Footer from "./components/footer";
 import Header from "./components/header";
 
 import Main from "./components/main";
@@ -13,6 +15,8 @@ const Home = () => {
       <Benefits />
       <About />
       <Preparation />
+      <Depoiments />
+      <Footer />
     </div>
   );
 };
