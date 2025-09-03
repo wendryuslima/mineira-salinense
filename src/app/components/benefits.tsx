@@ -1,3 +1,4 @@
+"use client";
 import { BottleWine, Martini } from "lucide-react";
 
 import "aos/dist/aos.css";
