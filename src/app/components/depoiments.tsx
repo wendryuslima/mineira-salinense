@@ -1,13 +1,15 @@
-"use client";
-import { DepoimentsComponent } from "../utils/depoiments";
-import Aos from "aos";
-import "aos/dist/aos.css";
+'use client";';
 import { useEffect } from "react";
+import { DepoimentsComponent } from "../utils/depoiments";
+
+import "aos/dist/aos.css";
+import Aos from "aos";
 
 const Depoiments = () => {
   useEffect(() => {
     Aos.init();
   }, []);
+
   return (
     <div
       id="depoiments"
