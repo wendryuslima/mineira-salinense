@@ -20,8 +20,8 @@ const Benefits = () => {
         <h2 data-aos="fade-right">Descubra os benefícios da nossa cachaça</h2>
         <div className="mt-8">
           <p className="p-4 text-zinc-400">
-            Nossa cachaça artesanal é feita co ingredientes selecionados,
-            garantindo um sabor autêntico e inigualável. Cada garada reflete a
+            Nossa cachaça artesanal é feita co, ingredientes selecionados,
+            garantindo um sabor autêntico e inigualável. Cada garrafa reflete a
             tradição mineira;
           </p>
         </div>

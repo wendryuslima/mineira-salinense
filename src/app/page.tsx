@@ -9,6 +9,7 @@ import Header from "./components/header";
 import Main from "./components/main";
 import Preparation from "./components/preparation";
 import Aos from "aos";
+import Products from "./components/products";
 
 const Home = () => {
   useEffect(() => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Main />
       <Benefits />
       <About />
+      <Products />
       <Preparation />
       <Depoiments />
       <Footer />
