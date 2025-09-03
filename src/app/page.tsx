@@ -21,7 +21,7 @@ const Home = () => {
       <Main />
       <Benefits />
       <About />
-      <Products />
+
       <Preparation />
       <Depoiments />
       <Footer />
