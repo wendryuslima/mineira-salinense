@@ -7,7 +7,7 @@ import { useEffect } from "react";
 const Depoiments = () => {
   useEffect(() => {
     Aos.init();
-  });
+  }, []);
   return (
     <div
       id="depoiments"

@@ -1,13 +1,9 @@
 "use client";
-import Aos from "aos";
+
 import "aos/dist/aos.css";
 import Image from "next/image";
-import { useEffect } from "react";
 
 const About = () => {
-  useEffect(() => {
-    Aos.init();
-  });
   return (
     <div id="about" className="mt-24 overflow-hidden px-4">
       <h2
@@ -16,7 +12,7 @@ const About = () => {
       >
         Sobre Nós
       </h2>
-      <div className="relative h-[450px] w-full">
+      <div className="relative h-screen w-full">
         <Image
           src="/mineira-salinense-3.jpg"
           alt="m-s-4"
