@@ -27,7 +27,7 @@ const Preparation = () => {
         </p>
       </div>
 
-      <div data-aos="fade-up" className="relative h-[300px] w-full">
+      <div data-aos="fade-up" className="relative h-[300px]">
         <Image
           src="/envelhecimento.jpg"
           alt="envelheciemento"

@@ -15,7 +15,7 @@ const Home = () => {
     Aos.init();
   }, []);
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <Header />
       <Main />
       <Benefits />

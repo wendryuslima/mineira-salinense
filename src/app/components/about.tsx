@@ -1,6 +1,5 @@
 "use client";
 import "aos/dist/aos.css";
-import Image from "next/image";
 
 const About = () => {
   return (
@@ -11,16 +10,7 @@ const About = () => {
       >
         Sobre Nós
       </h2>
-      <div className="relative h-screen w-full">
-        <Image
-          src="/mineira-salinense-3.jpg"
-          alt="m-s-4"
-          fill
-          className="rounded-lg object-cover"
-        />
-
-        <div className="bg-background/95 absolute inset-0 rounded-md"></div>
-
+      <div className="">
         <div className="space-y-6 p-6">
           <div data-aos="fade-left" className="space-y-4">
             <h3 className="text-2xl font-semibold">Mineira Salinense</h3>
@@ -43,7 +33,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mt-24 grid grid-cols-3 gap-4 pt-4">
+      <div className="grid grid-cols-1 gap-4 pt-4">
         <div className="bg-background rounded-lg border p-4 text-center">
           <div className="mb-1 text-2xl font-bold text-yellow-300">15+</div>
           <div className="text-sm text-white">Anos de Experiência</div>
