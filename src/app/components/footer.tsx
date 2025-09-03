@@ -10,7 +10,7 @@ const Footer = () => {
       >
         <InstagramIcon />
       </Link>
-      <p className="text-zinc-400">mineirasalinense@outlook.com</p>
+      <p className="text-zinc-400">mineirasalinense@hotmail.com</p>
       <p className="text-sm">© 2025 Todos os direiros reservados</p>
     </div>
   );
