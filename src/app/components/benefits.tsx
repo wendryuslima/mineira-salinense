@@ -10,7 +10,7 @@ import Aos from "aos";
 const Benefits = () => {
   useEffect(() => {
     Aos.init();
-  });
+  }, []);
   return (
     <div
       id="products"

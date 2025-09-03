@@ -12,7 +12,7 @@ import Aos from "aos";
 const Main = () => {
   useEffect(() => {
     Aos.init();
-  });
+  }, []);
   return (
     <div
       data-aos="fade-up"
