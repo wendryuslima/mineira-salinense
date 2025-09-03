@@ -1,16 +1,10 @@
-"use client";
 import { BottleWine, Martini } from "lucide-react";
 
-import { useEffect } from "react";
-import Aos from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 import { benefits } from "../utils/benefits";
 
 const Benefits = () => {
-  useEffect(() => {
-    Aos.init();
-  });
   return (
     <div
       id="products"
