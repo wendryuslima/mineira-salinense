@@ -1,4 +1,4 @@
-import { FiveStars } from "../components/stars/stars-icon";
+import { FiveStars } from "../components/stars/star-icon";
 
 export const DepoimentsComponent = [
   {
