@@ -12,7 +12,7 @@ const Benefits = () => {
     Aos.init();
   });
   return (
-    <div className="flex w-full flex-col items-center justify-center">
+    <div className="flex w-full flex-col items-center justify-center overflow-hidden">
       <div data-aos="fade-up" className="flex p-4">
         <Martini size={35} />
         <BottleWine size={35} />
@@ -29,8 +29,8 @@ const Benefits = () => {
         </div>
       </div>
 
-      <div data-aos="fade-up" className="mt-12 grid grid-cols-2 gap-4">
-        <div className="relative h-48 w-48">
+      <div data-aos="fade-up" className="mt-12 grid grid-cols-2 gap-4 px-4">
+        <div className="relative h-40 w-40 p-4">
           <Image
             className="rounded-lg object-cover"
             src="/mineira-salinense-1.jpg"
@@ -38,7 +38,7 @@ const Benefits = () => {
             fill
           />
         </div>
-        <div className="relative h-48 w-48">
+        <div className="relative h-40 w-40">
           <Image
             className="rounded-lg object-cover"
             src="/mineira-salinense-2.jpg"
@@ -46,7 +46,7 @@ const Benefits = () => {
             fill
           />
         </div>
-        <div className="relative h-48 w-48">
+        <div className="relative h-40 w-40">
           <Image
             className="rounded-lg object-cover"
             src="/m-s-5.jpg"
@@ -54,7 +54,7 @@ const Benefits = () => {
             fill
           />
         </div>
-        <div className="relative h-48 w-48">
+        <div className="relative h-40 w-40">
           <Image
             className="rounded-lg object-cover"
             src="/mineira-salinense-4.jpg"
@@ -70,11 +70,13 @@ const Benefits = () => {
       >
         {benefits.map((benefit, index) => (
           <div key={index} className="flex flex-col items-center gap-2">
-            <p className="flex items-center justify-center gap-2 text-xl font-semibold">
+            <p className="flex gap-2 text-xl font-semibold">
               {benefit.icon && <benefit.icon size={20} color="yellow" />}
               {benefit.name}
             </p>
-            <p className="text-sm text-zinc-400">{benefit.description}</p>
+            <p className="text-center text-sm text-zinc-400">
+              {benefit.description}
+            </p>
           </div>
         ))}
       </div>

@@ -3,6 +3,7 @@ import Benefits from "./components/benefits";
 import Header from "./components/header";
 
 import Main from "./components/main";
+import Preparation from "./components/preparation";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Main />
       <Benefits />
       <About />
+      <Preparation />
     </div>
   );
 };
