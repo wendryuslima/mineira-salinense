@@ -1,4 +1,3 @@
-
 import { Star } from "lucide-react";
 
 export function FiveStars() {
