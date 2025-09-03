@@ -6,13 +6,10 @@ import "aos/dist/aos.css";
 
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { useEffect } from "react";
-import Aos from "aos";
+
 
 const Main = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
+  
   return (
     <div
       data-aos="fade-up"

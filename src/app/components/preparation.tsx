@@ -2,13 +2,8 @@
 import Image from "next/image";
 
 import "aos/dist/aos.css";
-import { useEffect } from "react";
-import Aos from "aos";
 
 const Preparation = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <div className="mt-36 flex flex-col justify-center gap-8 overflow-hidden p-4">
       <div data-aos="fade-left" className="mx-auto mb-4 text-center">
