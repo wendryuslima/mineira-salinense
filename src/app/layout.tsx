@@ -1,4 +1,4 @@
-"use client";
+
 import type { Metadata } from "next";
 
 import "./globals.css";
@@ -6,8 +6,7 @@ import "./globals.css";
 import { Poppins } from "next/font/google";
 
 import "./globals.css";
-import Aos from "aos";
-import { useEffect } from "react";
+
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -24,9 +23,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  useEffect(() => {
-    Aos.init();
-  }, []);
+  
   return (
     <html lang="en">
       <body className={`${poppins.className} dark antialiased`}>
