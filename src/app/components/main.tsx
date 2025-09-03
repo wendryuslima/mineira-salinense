@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 
 import "aos/dist/aos.css";
@@ -11,7 +12,7 @@ import Aos from "aos";
 const Main = () => {
   useEffect(() => {
     Aos.init();
-  }, []);
+  });
   return (
     <div
       data-aos="fade-up"
