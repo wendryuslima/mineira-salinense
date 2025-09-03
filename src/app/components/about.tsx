@@ -12,8 +12,13 @@ const About = () => {
       </h2>
       <div className="">
         <div className="space-y-6 p-6">
-          <div data-aos="fade-left" className="space-y-4">
-            <h3 className="text-2xl font-semibold">Mineira Salinense</h3>
+          <div
+            data-aos="fade-left"
+            className="items-center space-y-4 text-center"
+          >
+            <h3 className="text-2xl leading-1 font-semibold uppercase">
+              Mineira Salinense
+            </h3>
             <p className="text-lg leading-relaxed">
               Com mais de{" "}
               <span className="font-semibold text-yellow-300">

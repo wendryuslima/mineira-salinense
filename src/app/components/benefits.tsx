@@ -5,9 +5,7 @@ import "aos/dist/aos.css";
 import Image from "next/image";
 import { benefits } from "../utils/benefits";
 
-
 const Benefits = () => {
-  
   return (
     <div
       id="products"
