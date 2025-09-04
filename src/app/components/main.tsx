@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
+
 const Main = () => {
   return (
     <div
@@ -51,6 +52,8 @@ const Main = () => {
             Peça agora
           </Button>
         </div>
+
+        
       </div>
     </div>
   );

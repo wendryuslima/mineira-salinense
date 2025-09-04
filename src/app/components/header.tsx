@@ -25,7 +25,7 @@ const Header = () => {
     }, 300);
   };
   return (
-    <div className="flex items-center justify-between border-b p-6">
+    <div id="home" className="flex items-center justify-between border-b p-6">
       <div className="">
         <h1 className="text-2xl leading-2 font-semibold text-[#FFD700] uppercase">
           Mineira Salinense
