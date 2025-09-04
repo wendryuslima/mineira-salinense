@@ -67,8 +67,11 @@ const Benefits = () => {
         className="mt-12 flex flex-col items-center justify-center gap-12"
       >
         {benefits.map((benefit, index) => (
-          <div key={index} className="flex flex-col items-center gap-2">
-            <p className="flex gap-2 text-xl font-semibold">
+          <div
+            key={index}
+            className="flex flex-col items-center justify-center gap-2"
+          >
+            <p className="flex items-center gap-2 text-xl font-semibold">
               {benefit.icon && <benefit.icon size={20} color="yellow" />}
               {benefit.name}
             </p>
