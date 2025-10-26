@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   description:
     "Cachaça artesanal com mais de 15 anos de experiência no ABC Paulista",
   icons: {
-    icon: "/background-mineira-removebg-preview.png",
-    apple: "/logo.png",
+    icon: "/background-mineira-removebg-preview.png", 
+    apple: "/logo.png", 
   },
 };
 
